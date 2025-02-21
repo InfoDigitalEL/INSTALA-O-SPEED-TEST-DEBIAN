@@ -17,9 +17,9 @@ Requisitos de hardware:
 Pacotes essenciais
 
      su -
-     apt install vim wget unzip net-tools psmisc
+     apt install nano wget unzip net-tools psmisc
      
-Ajuste no kernel *vim /etc/sysctl.conf* adicione ao final
+Ajuste no kernel *nano /etc/sysctl.conf* adicione ao final
 
      # Kernel deve tentar manter o máximo possível de dados em memória principal 
      vm.swappiness = 5
@@ -85,7 +85,7 @@ Vamos baixar o Speedtest dentro do diretório /usr/local/src/ooklaserver
      ./ooklaserver.sh stop
  Edite o arquivo de configuração Ookla
  
-     vim /usr/local/src/ooklaserver/OoklaServer.properties
+     nano /usr/local/src/ooklaserver/OoklaServer.properties
  Remova o # e ative o IPv6 (OBRIGATÓRIO) 
  
      OoklaServer.useIPv6 = true
@@ -160,7 +160,7 @@ Vamos baixar o Speedtest dentro do diretório /usr/local/src/ooklaserver
  ![image](https://user-images.githubusercontent.com/94009104/234432767-e7e12751-43d7-4d9e-9f97-9a98703a0329.png)
  #Renovar Certificado automaticamente todo dia primeiro
  
- Abra a pasta vim /usr/local/src/ooklaserver/renova-certificado
+ Abra a pasta nano /usr/local/src/ooklaserver/renova-certificado
  
      #!/bin/bash
      # Renova o certificado
