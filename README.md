@@ -139,7 +139,7 @@ Vamos baixar o Speedtest dentro do diretório /usr/local/src/ooklaserver
      
      apt install certbot
      certbot certonly --standalone
- Email (null@gabrielteixeiraconsultoria.com.br ou null@remontti.com.br), Y, N, Seu subdominio e dominio do Speedtest
+ Email (null@infozapdev.com.br), Y, N, Seu subdominio e dominio do Speedtest
  
  Edite o arquivo nano /usr/local/src/ooklaserver/OoklaServer.properties para usarmos o certificado gerado
  
