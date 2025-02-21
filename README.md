@@ -95,7 +95,7 @@ Vamos baixar o Speedtest dentro do diretório /usr/local/src/ooklaserver
  Sobreecreva OoklaServer.properties.default com o OoklaServer.properties
  
      cp /usr/local/src/ooklaserver/OoklaServer.properties /usr/local/src/ooklaserver/OoklaServer.properties.default
- Para que o ookla seja tratado como um serviço vamos editar o diretório vim /lib/systemd/system/ooklaserver.service
+ Para que o ookla seja tratado como um serviço vamos editar o diretório nano /lib/systemd/system/ooklaserver.service
      
      [Unit]
      Description=OoklaServer-SpeedTest 
@@ -141,7 +141,7 @@ Vamos baixar o Speedtest dentro do diretório /usr/local/src/ooklaserver
      certbot certonly --standalone
  Email (null@gabrielteixeiraconsultoria.com.br ou null@remontti.com.br), Y, N, Seu subdominio e dominio do Speedtest
  
- Edite o arquivo vim /usr/local/src/ooklaserver/OoklaServer.properties para usarmos o certificado gerado
+ Edite o arquivo nano /usr/local/src/ooklaserver/OoklaServer.properties para usarmos o certificado gerado
  
  Localize openSSL.server.certificateFile e openSSL.server.privateKeyFile
 
